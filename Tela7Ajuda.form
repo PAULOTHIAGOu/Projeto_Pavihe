@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel1"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="closable" type="boolean" value="true"/>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[554, 390]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jScrollPane1" alignment="1" pref="572" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="25" max="32767" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="310" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextArea1">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Bem-vindo &#xe0; tela de ajuda do Portal do Aluno.&#xa; Abaixo est&#xe3;o algumas informa&#xe7;&#xf5;es &#xfa;teis sobre as principais funcionalidades do  sistema:&#xa;&#xa;Tela de Login:&#xa;Nesta tela, voc&#xea; deve inserir suas credenciais de acesso (userID e senha,&#xa;fornecidos apos realizar o primeiro acesso) para acessar o sistema.&#xa;&#xa;Tela de Primeiro Acesso:&#xa;Caso seja seu primeiro acesso, voc&#xea; ser&#xe1; redirecionado para esta tela.&#xa; &#xc9; necess&#xe1;rio preencher algumas informa&#xe7;&#xf5;es para criar  a sua conta.&#xa;&#xa;Tela de Recupera&#xe7;&#xe3;o de Senha:&#xa;Se voc&#xea; esqueceu sua senha, clique no link &quot;Esqueceu sua senha?&quot; na tela de login.&#xa; Voc&#xea; ser&#xe1; direcionado para esta tela, para redefinir senha,apos confirmar algumas informa&#xe7;&#xf5;es&#xa;&#xa;Tela de Gerenciar Aluno:&#xa;Nesta tela, os professores podem lan&#xe7;ar notas para os alunos e verificar informa&#xe7;&#xf5;es&#xa;sobre a turma em que o aluno est&#xe1; matriculado.&#xa;&#xa;Tela de Status do Aluno:&#xa;Aqui, voc&#xea; pode digitar a ID do aluno para visualizar suas notas, &#xa;informa&#xe7;&#xf5;es de contato (como e-mail e telefone) e se o aluno foi aprovado ou n&#xe3;o.&#xa; &#xa;Tela de Editar Perfil:&#xa;Nesta tela, voc&#xea; pode atualizar seu e-mail de cadastro, n&#xfa;mero de telefone&#xa; e tamb&#xe9;m fazer o upload de uma foto de perfil.&#xa;"/>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[520, 440]"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
